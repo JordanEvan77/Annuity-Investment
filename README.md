@@ -1,2 +1,4 @@
 # Annuity-Investment
 Small scale program that reads info from files, writes info into new files, and then based on that performs annuity calculations via bisection.
+I was given the following scenario:
+"C3 inc., a company, wants to have the tools to figure out the fair amount of the initial monthly payment for such a contract given a list of arbitrary cash flows from the customer and an annual inflation adjustment percentage." I was then given sparse input files to work with, which I then used to create dense input files, through program create_dense_files, and then read into another program, called search_annuity which would use bisection method to determine the best monthly pay out for the company in the given circumstance. It then prints out the recommendations along with the reasoning behind it. If running the code, you will want to use test case 1.
